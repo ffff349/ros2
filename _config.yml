@@ -1,6 +1,14 @@
-theme: jekyll-theme-minimal  # 使用 GitHub 默认主题
-plugins: [jekyll-optional-front-matter]
-# 导航配置（不同主题可能参数不同）
+# _config.yml 修正版
+theme: jekyll-theme-minimal  # 使用 GitHub 官方主题
+
+# 插件配置（YAML 列表格式）
+plugins:
+  - jekyll-optional-front-matter  # 允许无 Front Matter 的 Markdown
+
+# 永久链接格式（生成 /about/ 而不是 /about.html）
+permalink: pretty
+
+# 主题特定配置（需确认主题是否支持）
 header_pages:
   - about.md
   - projects.md
