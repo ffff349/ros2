@@ -1,14 +1,15 @@
-# _config.yml 修正版
-theme: jekyll-theme-minimal  # 使用 GitHub 官方主题
+# Jekyll 必须配置
+theme: jekyll-theme-minimal
+plugins: [jekyll-optional-front-matter]
 
-# 插件配置（YAML 列表格式）
-plugins:
-  - jekyll-optional-front-matter  # 允许无 Front Matter 的 Markdown
-
-# 永久链接格式（生成 /about/ 而不是 /about.html）
+# 路径配置 (核心修复项)
+baseurl: "/ros2"      # 必须与仓库名一致
+url: "https://ffff349.github.io"
 permalink: pretty
 
-# 主题特定配置（需确认主题是否支持）
-header_pages:
-  - about.md
-  - projects.md
+# 主题导航配置（示例）
+navigation:
+  - text: 主页
+    url: /
+  - text: 关于
+    url: /about/
