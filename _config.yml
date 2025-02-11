@@ -1,2 +1,6 @@
 theme: jekyll-theme-minimal  # 使用 GitHub 默认主题
 plugins: [jekyll-optional-front-matter]
+# 导航配置（不同主题可能参数不同）
+header_pages:
+  - about.md
+  - projects.md
