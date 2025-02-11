@@ -1,0 +1,2 @@
+theme: jekyll-theme-minimal  # 使用 GitHub 默认主题
+plugins: [jekyll-optional-front-matter]
