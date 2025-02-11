@@ -4,4 +4,3 @@ plugins: [jekyll-optional-front-matter]
 header_pages:
   - about.md
   - projects.md
-
