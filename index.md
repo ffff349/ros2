@@ -2,7 +2,7 @@
 # 必须的 Front Matter（用于 Jekyll 识别）
 layout: home         # 使用主题自带的布局
 title: 欢迎来到我的知识库  # 页面标题
-permalink: ros2/        # 指定为根路径（生成 index.html）
+permalink: /ros2/        # 指定为根路径（生成 index.html）
 nav_order: 1         # 导航排序（如果主题支持目录）
 ---
 
