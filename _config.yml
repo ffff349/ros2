@@ -1,15 +1,6 @@
-# Jekyll 必须配置
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal  # 使用 GitHub 默认主题
 plugins: [jekyll-optional-front-matter]
-
-# 路径配置 (核心修复项)
-baseurl: "/ros2"      # 必须与仓库名一致
-url: "https://ffff349.github.io"
-permalink: pretty
-
-# 主题导航配置（示例）
-navigation:
-  - text: 主页
-    url: /
-  - text: 关于
-    url: /about/
+# 导航配置（不同主题可能参数不同）
+header_pages:
+  - about.md
+  - projects.md
